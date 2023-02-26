@@ -1,0 +1,195 @@
+:root {
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --text: #434455;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --modal-overlay: #2e2f42;
+  --hero-background: #2e2f42;
+  --hero-text: white;
+}
+
+/* body */
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: regular;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  color: var(--text);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navigation */
+ul {
+  list-style: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.3;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.web {
+  color: var(--primary-brand);
+}
+
+.studio {
+  color: var(--modal-overlay);
+}
+
+.link {
+  font-weight: 500;
+  color: var(--modal-overlay);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--pressed-state);
+}
+
+.current {
+  color: var(--pressed-state);
+}
+
+.address a {
+  font-style: normal;
+  color: var(--text);
+}
+
+.mail:hover,
+.mail:focus,
+.tel:hover,
+.tel:focus {
+  color: var(--pressed-state);
+}
+
+/* Hero */
+
+.hero {
+  background: var(--hero-background);
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.1;
+  color: var(--hero-text);
+}
+
+.hero-button {
+  cursor: pointer;
+  background: var(--primary-brand);
+  color: var(--hero-text);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background: var(--pressed-state);
+}
+
+/* Section 1 */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.advantages-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--dark);
+}
+
+/* Section 2 */
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  color: var(--dark);
+}
+
+/* Section 3 */
+
+.team {
+  background-color: var(--light);
+}
+
+.list-team-item {
+  background-color: #fff;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--dark);
+}
+
+/* Buttons */
+
+.buttons {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--primary-brand);
+  background-color: var(--light);
+  cursor: pointer;
+}
+
+.buttons:hover,
+.buttons:focus {
+  color: var(--hero-text);
+  background-color: var(--pressed-state);
+}
+
+/* Examples */
+
+.portfolio-titles {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--dark);
+}
+
+/* Footer */
+
+.studio-white {
+  color: var(--hero-text);
+}
+
+.footer {
+  background-color: var(--dark);
+}
+
+.footer-text {
+  color: var(--accent);
+}
