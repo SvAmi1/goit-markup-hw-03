@@ -71,15 +71,19 @@ body {
 	clip: rect(0 0 0 0);
 	overflow: hidden;
 }
+.section {
+	padding-top: 120px;
+	padding-bottom: 120px;
+	text-align: center;
+}
+
 /* Header ------ Navigation */
+
 .header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	/* padding-top: 24px;
-	padding-bottom: 24px; */
 }
-
 .header-container {
 	display: flex;
 	justify-content: space-between;
@@ -143,7 +147,6 @@ body {
 	color: var(--pressed-state);
 }
 .address {
-	/* margin-left: auto; */
 }
 .address-list {
 	display: flex;
@@ -161,19 +164,12 @@ body {
 	color: var(--pressed-state);
 }
 
-.section {
-	padding-top: 120px;
-	padding-bottom: 120px;
-	text-align: center;
-}
-
 /* Hero */
 
 .hero {
 	background: var(--hero-background);
 	text-align: center;
 }
-
 .hero-title {
 	font-weight: 700;
 	font-size: 56px;
@@ -182,7 +178,6 @@ body {
 
 	margin-bottom: 48px;
 }
-
 .hero-btn {
 	display: inline-block;
 	font-family: inherit;
@@ -193,7 +188,6 @@ body {
 	border-radius: 4px;
 	min-width: 169px;
 }
-
 .hero-btn:hover,
 .hero-btn:focus {
 	background: var(--pressed-state);
@@ -203,7 +197,6 @@ body {
 
 .advantages {
 }
-
 .advantages-list {
 }
 .advantages-item {
@@ -223,11 +216,11 @@ body {
 	text-align: left;
 	min-width: 264px;
 }
+
 /* Section 2 */
 
 .activities {
 }
-
 .activities-title {
 	font-weight: 700;
 	font-size: 36px;
@@ -253,11 +246,9 @@ body {
 }
 .team-list {
 }
-
 .team-item {
 	background-color: #fff;
 }
-
 .img-box {
 	margin: 32px 16px;
 	text-align: center;
@@ -281,7 +272,6 @@ body {
 }
 .portfolio-btns-item {
 }
-
 .btns {
 	font-family: inherit;
 	font-weight: 500;
@@ -292,7 +282,6 @@ body {
 	background-color: var(--light);
 	cursor: pointer;
 }
-
 .btns:hover,
 .btns:focus {
 	color: var(--hero-text);
@@ -321,7 +310,6 @@ body {
 	text-align: left;
 	border-top: none;
 	border: 1px solid var(--accent);
-
 	margin: 0;
 	padding: 32px 15px;
 }
@@ -334,7 +322,9 @@ body {
 }
 .portfolio-text {
 }
+
 /* Footer */
+
 .studio-white {
 	color: var(--hero-text);
 }
@@ -344,7 +334,6 @@ body {
 .footer-box {
 	margin-bottom: 16px;
 	margin-top: 100px;
-	/* margin-top: 100px; ??????? */
 }
 .footer-text {
 	padding-bottom: 100px;
