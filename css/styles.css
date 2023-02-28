@@ -88,6 +88,9 @@ body {
 	justify-content: space-between;
 	align-items: center;
 }
+.secondary.header-container {
+	border-bottom: 1px solid #e7e9fc;
+}
 .site-nav {
 }
 .nav-container {
@@ -270,6 +273,8 @@ body {
 /* Buttons */
 
 .portfolio {
+	padding-top: 96px;
+	padding-bottom: 84px;
 }
 .portfolio-btns-list {
 	justify-content: center;
@@ -297,11 +302,6 @@ body {
 }
 
 /* Examples */
-
-.portfolio {
-	padding-top: 96px;
-	padding-bottom: 84px;
-}
 .portfolio-list {
 	padding-left: 0;
 	margin-right: 0;
