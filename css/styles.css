@@ -10,6 +10,7 @@
 	--modal-overlay: #2e2f42;
 	--hero-background: #2e2f42;
 	--hero-text: white;
+	--secondary-font: "Raleway", sans-serif;
 	--subtitle-margin-bottom: 8px;
 	--title-margin-bottom: 72px;
 }
@@ -42,7 +43,6 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 	color: var(--text);
 }
 .container {
@@ -107,7 +107,6 @@ body {
 	flex: none;
 	order: 0;
 	flex-grow: 0;
-	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .web {
@@ -168,6 +167,7 @@ body {
 .hero {
 	background: var(--hero-background);
 	text-align: center;
+	padding: 188px 472px;
 }
 .hero-title {
 	font-weight: 700;
@@ -176,15 +176,20 @@ body {
 	color: var(--hero-text);
 
 	margin-bottom: 48px;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 496px;
 }
 .hero-btn {
-	display: inline-block;
+	display: flex;
 	font-family: inherit;
 	cursor: pointer;
 	background: var(--primary-brand);
 	color: var(--hero-text);
 	padding: 16px 32px;
+	gap: 10px;
 	border-radius: 4px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	min-width: 169px;
 }
 .hero-btn:hover,
@@ -305,10 +310,10 @@ body {
 }
 .portfolio-item {
 }
-.item-portfolio {
+.portfolio-box {
 	text-align: left;
-	border-top: none;
 	border: 1px solid var(--accent);
+	border-top: none;
 	margin: 0;
 	padding: 32px 15px;
 }
